@@ -1,0 +1,141 @@
+/*jumbotron*/
+.jumbotron{
+    border-radius: 0rem;
+    background-color: #4d4d4d;
+    color: #ffffff;
+}
+
+/*get started*/
+#get-started{
+    background-color: #d9d9d9;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*sign up*/
+#inlineFormInput{
+    width: 50%;
+}
+
+/*footer*/
+footer{
+    background-color: #4d4d4d;
+}
+
+
+/*  Break Points/Media Queries  */
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+    /*NAVIGATION*/
+    .navbar-toggleable-md {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        margin-top: 5px;
+    }
+
+    .btn {
+    width: 100%;
+    }
+
+    .d-flex,
+    .media-body {
+        text-align: center;
+        margin: auto;
+    }
+
+    .d-flex {
+        margin-top: 10px;
+    }
+
+    /*GET STARTED*/
+    #get-started h1 {
+        text-align: center;
+    }
+
+    #get-started .btn {
+        margin-bottom: 10px;
+    }
+
+    #get-started .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #get-started .video {
+        width: 100%;
+        height: 15rem;
+    }
+
+    /*SIGN UP*/
+    #inlineFormInput,
+    .btn {
+        text-align: center;
+
+    }
+
+    #sign-up .container,
+    #inlineFormInput{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    /*PROGRAMS*/
+    #programs .card-title, .center {
+        text-align: center;
+    }
+
+    #programs .card{
+        margin: 10px;
+    }
+
+    /*FOOTER*/
+    footer h4{
+        text-align: center;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .navbar-toggleable-md{
+        margin: 0;
+        padding: 0;
+    }
+
+     .navbar-toggler{
+            margin-top: 5px;
+        }
+
+ }
+
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggleable-md{
+        margin: 0;
+        padding: 0;
+    }
+
+     .navbar-toggler{
+        margin-top: 5px;
+    }
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
